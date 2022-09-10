@@ -4,15 +4,11 @@ export const Header = () => {
         <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-20 lg:max-w-lg lg:pr-5">
             <div className="max-w-xl mb-6">
-              <div>
-                <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                  New Colaboration
-                </p>
-              </div>
+               
               <h2 className="max-w-lg mb-4 font-sans  p-3 font-bold uppercase tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                <span className=" text-2xl text-blue-400">Welcome To</span> <br /> <span className="md:text-5xl">Luxelivingairbnb</span>
+                <span className=" text-lg md:text-2xl text-blue-400">Welcome To</span> <br /> <span className="text-2xl md:text-5xl">Luxelivingairbnb</span>
               </h2>
-              <p className="text-base tracking-wide text-gray-700 md:text-lg">
+              <p className="text-base text-lg tracking-wide text-gray-700 md:text-lg">
                 Freedom to move anywhere ,anytime with no leases, landlords or commitments
               </p>
             </div>
@@ -33,7 +29,7 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        <div className=" mt-4  inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+        <div className=" mt- 24  inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
           <img
             className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg"
