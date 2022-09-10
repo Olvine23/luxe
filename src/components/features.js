@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+ 
   import { faHouseSignal } from '@fortawesome/free-solid-svg-icons'
 
 
