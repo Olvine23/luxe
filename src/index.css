@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'olly';
+    src: local('olly'), url('./Noto_Sans_Buhid/NotoSansBuhid-Regular.ttf') format('truetype');}
+
+*{
+    font-family: 'olly';
+}
