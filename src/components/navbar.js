@@ -94,7 +94,7 @@ export const Nav = () => {
                 </svg>
               </button>
               {isMenuOpen && (
-                <div class="absolute top-0 left-0 w-full">
+                <div class="absolute z-10 top-0 left-0 w-full">
                   <div class="p-5 bg-white border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>
@@ -104,23 +104,9 @@ export const Nav = () => {
                           title="Company"
                           class="inline-flex items-center"
                         >
-                          <svg
-                            class="w-8 text-deep-purple-accent-400"
-                            viewBox="0 0 24 24"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeMiterlimit="10"
-                            stroke="currentColor"
-                            fill="none"
-                          >
-                            <rect x="3" y="1" width="7" height="12" />
-                            <rect x="3" y="17" width="7" height="6" />
-                            <rect x="14" y="1" width="7" height="6" />
-                            <rect x="14" y="11" width="7" height="12" />
-                          </svg>
+                          
                           <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                            Company
+                            Luxelivingairbnb
                           </span>
                         </a>
                       </div>
@@ -149,7 +135,7 @@ export const Nav = () => {
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Product
+                            Destinations
                           </a>
                         </li>
                         <li>
@@ -159,7 +145,7 @@ export const Nav = () => {
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Features
+                            Blog
                           </a>
                         </li>
                         <li>
@@ -169,7 +155,7 @@ export const Nav = () => {
                             title="Product pricing"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Pricing
+                            Contact Us
                           </a>
                         </li>
                         <li>
@@ -179,19 +165,10 @@ export const Nav = () => {
                             title="About us"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            About us
+                            Join us
                           </a>
                         </li>
-                        <li>
-                          <a
-                            href="/"
-                            class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                            aria-label="Sign up"
-                            title="Sign up"
-                          >
-                            Sign up
-                          </a>
-                        </li>
+                        
                       </ul>
                     </nav>
                   </div>
