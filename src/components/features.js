@@ -1,11 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  
   import { faHouseSignal } from '@fortawesome/free-solid-svg-icons'
+  import two from '../images/backdrop_2.jpg'
+  import three from '../images/backdrop_3.jpg'
+  import four from '../images/poster_2.jpg'
 
 
 export const Feature = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-2">
         <div>
           <p className="inline-block px-3 py-px mb- text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -100,23 +103,38 @@ export const Feature = () => {
         </div>
         <div className="flex items-center justify-center -mx-4 lg:pl-8">
           <div className="flex flex-col items-end px-3">
-            <img
+            {/* <img
               className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
               src="https://media.istockphoto.com/photos/wide-angle-real-estate-interior-shot-of-a-beautiful-trendy-aframe-picture-id1322234491?b=1&k=20&m=1322234491&s=170667a&w=0&h=aTJKqFwwM6aHtfi4rtwLRKewP_lwTCvR7u8XqNFVoPo="
               alt=""
-            />
+            /> */}
             <img
+            className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+            src={three}
+            alt=""
+          />
+            {/* <img
               className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="https://media.istockphoto.com/photos/modern-minimalist-family-villa-picture-id1254871777?k=20&m=1254871777&s=612x612&w=0&h=bG_QudxmoVZkKpjI0wMOuUvH86yNk0K-gPZytf_TSbQ="
               alt=""
-            />
+            /> */}
+            <img
+            className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+            src={two}
+            alt=""
+          />
           </div>
           <div className="px-3">
-            <img
+          <img
+            className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+            src={four}
+            alt=""
+          />
+            {/* <img
               className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
               src="https://media.istockphoto.com/photos/evening-view-of-a-modern-house-with-swimming-pool-picture-id1151833014?b=1&k=20&m=1151833014&s=170667a&w=0&h=DBLJJWjMpzOkt3Hvu3OPDHOfgYIAfNGk4qeCvKKeE1k="
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>
