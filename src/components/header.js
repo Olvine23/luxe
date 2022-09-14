@@ -1,19 +1,19 @@
 
-// import one from '../images/backdrop_1.jpg'
+import one from '../images/backdrop_1.jpg'
 export const Header = () => {
     return (
-      <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
+      <div className=" relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
          <div className=" mt-0z  inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-          <img
+          {/* <img
             className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg"
             alt=""
-          />
-         {/* <img
+          /> */}
+         <img
             className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src={one}
             alt=""
-          /> */}
+          />
         </div>
         <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-20 lg:max-w-lg lg:pr-5">

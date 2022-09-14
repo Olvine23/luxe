@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  
   import { faHouseSignal } from '@fortawesome/free-solid-svg-icons'
-  // import two from '../images/backdrop_2.jpg'
+  import two from '../images/backdrop_2.jpg'
   // import three from '../images/backdrop_3.jpg'
-  // import four from '../images/poster_2.jpg'
+  import four from '../images/poster_2.jpg'
 
 
 export const Feature = () => {
@@ -113,28 +113,28 @@ export const Feature = () => {
             src={three}
             alt=""
           /> */}
-            <img
+            {/* <img
               className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="https://media.istockphoto.com/photos/modern-minimalist-family-villa-picture-id1254871777?k=20&m=1254871777&s=612x612&w=0&h=bG_QudxmoVZkKpjI0wMOuUvH86yNk0K-gPZytf_TSbQ="
               alt=""
-            />
-            {/* <img
+            /> */}
+            <img
             className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src={two}
             alt=""
-          /> */}
+          />
           </div>
           <div className="px-3">
-          {/* <img
+          <img
             className="object-cover  w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src={four}
             alt=""
-          /> */}
-            <img
+          />
+            {/* <img
               className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
               src="https://media.istockphoto.com/photos/evening-view-of-a-modern-house-with-swimming-pool-picture-id1151833014?b=1&k=20&m=1151833014&s=170667a&w=0&h=DBLJJWjMpzOkt3Hvu3OPDHOfgYIAfNGk4qeCvKKeE1k="
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>
