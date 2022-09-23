@@ -25,7 +25,7 @@ export const Card = () => {
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
             <img className="object-cover w-full h-64" alt="t" src="https://media.istockphoto.com/photos/residential-area-in-the-city-modern-apartment-buildings-picture-id1159873271?b=1&k=20&m=1159873271&s=170667a&w=0&h=q3NzDwLx1_phKGuwoky47RcELDt8PMr3zA8WdaauCRg=" />
-            <h1 className=  "mt-3 font-bold text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} /> YYyy</h1>
+            <h1 className=  "mt-3 font-bold text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} />Mombasa</h1>
           </div>
         </div>
       </div>

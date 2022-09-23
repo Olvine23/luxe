@@ -14,7 +14,7 @@ export const Nav = () => {
             >
               
               <span class="ml-2 text-xl font-bold tracking-wide">
-                Luxelivingairbnb
+                luxelivingairbnbs
               </span>
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -106,7 +106,7 @@ export const Nav = () => {
                         >
                           
                           <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                            Luxelivingairbnb
+                            luxelivingairbnbs
                           </span>
                         </a>
                       </div>
