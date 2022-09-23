@@ -2,8 +2,8 @@ export const Headers = () => {
   return (
     <div className="relative">
       <img
-        src="https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_960_720.jpg"
-        className="absolute inset-0 from-black opacity-40 object-cover w-full h-full"
+        src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg"
+        className="absolute inset-0 from-black opacity-70  object-cover lg:w-full h-full"
         alt=""
       />
       <div className="relative bg-opacity-75 bg-deep-purple-accent-700">
