@@ -38,7 +38,7 @@ export const Footer = () => {
                 title="Our phone"
                 className="transition-colors duration-300 text-white hover:text-deep-purple-800"
               >
-                850-123-5021
+               +254 723 896 162 <br /> +254 708149 923
               </a>
             </div>
             <div className="flex">

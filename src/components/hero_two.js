@@ -3,7 +3,7 @@ export const Headers = () => {
     <div className="relative">
       <img
         src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg"
-        className="absolute inset-0 from-black opacity-70  object-cover lg:w-full h-full"
+        className="absolute inset-0 from-black opacity-70 lg:opacity-50  object-cover lg:w-full h-full"
         alt=""
       />
       <div className="relative bg-opacity-75 bg-deep-purple-accent-700">

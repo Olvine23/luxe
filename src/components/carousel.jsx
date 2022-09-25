@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Data
 import data from '../data/data.json';
@@ -54,11 +55,17 @@ const Carousel = () => {
       <h2 className="text-4xl leading-8 font-semibold mb-12 text-slate-700">
         View Properties
       </h2>
+      <Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
       <div className="relative overflow-hidden">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}
-            className="hover:bg-blue-900/75 text-blue-500 w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-blue-900/75 z-12 text-blue-500 w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled('prev')}
           >
             <svg
@@ -79,7 +86,7 @@ const Carousel = () => {
           </button>
           <button
             onClick={moveNext}
-            className="hover:bg-blue-900/75 text-blue-800 w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-blue-900/75 text-blue-800 w-10 z-12 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled('next')}
           >
             <svg
@@ -101,10 +108,11 @@ const Carousel = () => {
         </div>
         <div
           ref={carousel}
-          className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+          className="carousel-container relative flex gap-5 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
         >
           {data.resources.map((resource, index) => {
             return (
+              <SwiperSlide>
               <div
                 key={index}
                 className="carousel-item text-center relative w-64 h-64 snap-start"
@@ -114,7 +122,7 @@ const Carousel = () => {
                   className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
                 >
-                  <img
+                  <img  
                     src={resource.imageUrl || ''}
                     alt={resource.title}
                     className="w-full aspect-square hidden"
@@ -122,17 +130,20 @@ const Carousel = () => {
                 </a>
                 <a
                   href={resource.link}
-                  className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"
+                  className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-100 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"
                 >
                   <h3 className="text-white py-6 px-3 mx-auto text-xl">
                     {resource.title}
                   </h3>
                 </a>
               </div>
+              </SwiperSlide>
             );
           })}
         </div>
+
       </div>
+      </Swiper>
     </div>
   );
 };
