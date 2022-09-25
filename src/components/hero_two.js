@@ -40,38 +40,51 @@ export const Headers = () => {
                 aria-label=""
                 className="inline-flex items-center font-semibold tracking-wider transition-colors lg:mt-7 duration-200 text-teal-accent-400 hover:text-teal-accent-700"
               >
-               <button
-                      type="submit"
-                      className="inline-flex items-center justify-center bg-[#414141] w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                    >
-                      Read More
-                    </button>
-              
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center bg-[#414141] w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                >
+                  Read More
+                </button>
               </a>
-       <h1 className="text-center text-[#6A92A4] font-bold text-xl">Click To View Our Plans Info</h1>
-               
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
-        <div className="grid gap-8 row-gap-8 lg:grid-cols-3 sm:cols-3">
-          <div className="sm:text-center">
-            <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
-            <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Family</a>
-            </div>  
-          </div>
-          <div className="sm:text-center">
-          <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
-          <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Trinity</a>
-            </div>
-            
-             
-          </div>
-          <div className="sm:text-center">
-          <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
-          <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Corporate</a>
-            </div>
+              <h1 className="text-center text-[#6A92A4] font-bold text-xl">
+                Click To View Our Plans Info
+              </h1>
 
-          </div>
-        </div>
-      </div>
+              <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
+                <div className="grid gap-8 row-gap-8 lg:grid-cols-3 sm:cols-3">
+                  <div className="sm:text-center">
+                    <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+                      <a
+                        href="/"
+                        className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5"
+                      >
+                        Family
+                      </a>
+                    </div>
+                  </div>
+                  <div className="sm:text-center">
+                    <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+                      <a
+                        href="/"
+                        className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5"
+                      >
+                        Trinity
+                      </a>
+                    </div>
+                  </div>
+                  <div className="sm:text-center">
+                    <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+                      <a
+                        href="/"
+                        className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5"
+                      >
+                        Corporate
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
               <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
@@ -82,7 +95,7 @@ export const Headers = () => {
                   <div className="mb-1 sm:mb-2">
                     <label
                       htmlFor="firstName"
-                      className="inline-block mb-1 font-medium"
+                      className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
                     >
                       First name
                     </label>
@@ -98,7 +111,7 @@ export const Headers = () => {
                   <div className="mb-1 sm:mb-2">
                     <label
                       htmlFor="lastName"
-                      className="inline-block mb-1 font-medium"
+                      className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
                     >
                       Last name
                     </label>
@@ -113,10 +126,42 @@ export const Headers = () => {
                   </div>
                   <div className="mb-1 sm:mb-2">
                     <label
-                      htmlFor="email"
-                      className="inline-block mb-1 font-medium"
+                      htmlFor="lastName"
+                      className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
                     >
-                      E-mail
+                      Email
+                    </label>
+                    <input
+                      placeholder="Doe"
+                      required
+                      type="text"
+                      className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                      id="lastName"
+                      name="lastName"
+                    />
+                  </div>
+                  {/* <div className="mb-1 sm:mb-2">
+                    <label
+                      htmlFor="lastName"
+                      className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
+                    >
+                      Preferred membership package
+                    </label>
+                    <input
+                      placeholder="Doe"
+                      required
+                      type="text"
+                      className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                      id="lastName"
+                      name="lastName"
+                    />
+                  </div>
+                  <div className="mb-1 sm:mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
+                    >
+                      Week
                     </label>
                     <input
                       placeholder="john.doe@example.org"
@@ -127,6 +172,19 @@ export const Headers = () => {
                       name="email"
                     />
                   </div>
+                  <label
+                    for="message"
+                    class="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-400"
+                  >
+                    Your message
+                  </label>
+                  <textarea
+                    id="message"
+                    rows="4"
+                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Your message..."
+                  ></textarea> */}
+
                   <div className="mt-4 mb-2 sm:mb-4">
                     <button
                       type="submit"
