@@ -20,7 +20,7 @@ export const Headers = () => {
           <div className="flex flex-col items-center justify-between xl:flex-row">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
               <h2 className="max-w-lg mb-4 font-sans  p-3 font-bold uppercase tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                <span className="  text-lg md:text-2xl text-blue-400">
+                <span className="  text-lg md:text-2xl text-brown-900">
                   Welcome To
                 </span>{" "}
                 <br />{" "}
@@ -48,6 +48,30 @@ export const Headers = () => {
                     </button>
               
               </a>
+       <h1 className="text-center text-[#6A92A4] font-bold text-xl">Click To View Our Plans Info</h1>
+               
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
+        <div className="grid gap-8 row-gap-8 lg:grid-cols-3 sm:cols-3">
+          <div className="sm:text-center">
+            <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+            <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Family</a>
+            </div>  
+          </div>
+          <div className="sm:text-center">
+          <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+          <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Trinity</a>
+            </div>
+            
+             
+          </div>
+          <div className="sm:text-center">
+          <div className="flex items-center justify-center mb-2  font-extrabold rounded shadow-2xl   hover:bg-blue-600 hover:text-red-500 bg-white sm:mx-auto">
+          <a href="/" className="text-[#6A92A4] hover:text-white font-semibold md:p-4 p-2 text-lg leading-5">Corporate</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
             </div>
             <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
               <div className="bg-white rounded shadow-2xl p-7 sm:p-10">

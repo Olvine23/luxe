@@ -56,12 +56,12 @@ const Carousel = () => {
         View Properties
       </h2>
       <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
+      spaceBetween={40}
+      slidesPerView={6}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden">z
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}
@@ -108,7 +108,7 @@ const Carousel = () => {
         </div>
         <div
           ref={carousel}
-          className="carousel-container relative flex gap-5 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+          className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
         >
           {data.resources.map((resource, index) => {
             return (
