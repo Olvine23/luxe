@@ -6,6 +6,7 @@ export const Headers = () => {
         className="absolute inset-0 from-black opacity-70 lg:opacity-50  object-cover lg:w-full h-full"
         alt=""
       />
+      <span id="blackOverlay" class="w-full h-full absolute bg-black opacity-75"></span>
       <div className="relative bg-opacity-75 bg-deep-purple-accent-700">
         <svg
           className="absolute inset-x-0 bottom-0 text-white"
@@ -26,7 +27,7 @@ export const Headers = () => {
                 <br />{" "}
                 <span className="text-2xl md:text-5xl">luxelivingairbnbs</span>
               </h2>
-              <p className="text-base text-lg tracking-wide text-gray-900 md:text-lg">
+              <p className="text-base text-lg tracking-wide text-white md:text-lg">
                 Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "}
                 <br />
