@@ -7,7 +7,7 @@ import { Feature } from "./components/features";
 import { Footer } from "./components/footer";
 import { Blog } from "./components/blog";
 import { Card } from "./components/card";
- 
+import { Swipe } from "./components/swiper";
 
 function App() {
   return (
