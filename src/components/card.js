@@ -12,8 +12,10 @@ export const Card = () => {
         <h2 className="text-right mr-6">See All <FontAwesomeIcon icon={faArrowRight} /> </h2>
         <div className="grid gap-11   lg:grid-cols-4  sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
+            <a href='#'>
             <img className="  object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
             <h1 className=  "mt-3 text-center font-bold text-[#414141]"> <FontAwesomeIcon className="mr-4" icon={faLocationDot} /> Nairobi</h1>
+            </a>
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
             <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_960_720.jpg" />

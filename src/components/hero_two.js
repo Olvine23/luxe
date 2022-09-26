@@ -27,7 +27,7 @@ export const Headers = () => {
                 <br />{" "}
                 <span className="text-2xl md:text-5xl">luxelivingairbnbs</span>
               </h2>
-              <p className="text-base text-lg tracking-wide text-white md:text-lg">
+              <p className="text-center text-sm tracking-wide text-white md:text-lg">
                 Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "}
                 <br />
