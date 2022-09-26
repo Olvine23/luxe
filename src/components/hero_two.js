@@ -3,7 +3,7 @@ export const Headers = () => {
     <div className="relative">
       <img
         src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg"
-        className="absolute inset-0 from-black opacity-70 lg:opacity-50  object-cover lg:w-full h-full"
+        className="absolute inset-0 from-black    object-cover lg:w-full h-full"
         alt=""
       />
       <span id="blackOverlay" class="w-full h-full absolute bg-black opacity-75"></span>
@@ -20,7 +20,7 @@ export const Headers = () => {
         <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full z-12 lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <div className="flex flex-col items-center justify-between xl:flex-row">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-              <h2 className="max-w-lg mb-4 font-sans  p-3 font-bold uppercase tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="max-w-lg mb-4 font-sans  p-3 font-bold uppercase tracking-tight text-white sm:text-4xl sm:leading-none">
                 <span className="  text-lg md:text-2xl text-brown-900">
                   Welcome To
                 </span>{" "}
