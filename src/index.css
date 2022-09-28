@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'olly';
-    src: local('olly'), url('./Noto_Sans_Buhid/NotoSansBuhid-Regular.ttf') format('truetype');}
+    src: local('olly'), url('./Poppins-Regular.ttf') format('truetype');}
 
 *{
     font-family: 'olly';
