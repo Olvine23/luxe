@@ -22,11 +22,11 @@ export const Card = () => {
             <h1 className=  "mt-3 text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} /> Kisumu</h1>
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
-            <img className="object-cover w-full h-64" alt="t" src="https://media.istockphoto.com/photos/modern-architecture-with-playground-picture-id474649154?b=1&k=20&m=474649154&s=170667a&w=0&h=n_IL8zBZiFbmagwRU-waE375OfoWioAZ7EvRgivunCY=" />
+            <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
             <h1 className=  "mt-3 text-center font-bold text-[#414141]"> <FontAwesomeIcon className="mr-4" icon={faLocationDot} />Malindi</h1>
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
-            <img className="object-cover w-full h-64" alt="t" src="https://media.istockphoto.com/photos/residential-area-in-the-city-modern-apartment-buildings-picture-id1159873271?b=1&k=20&m=1159873271&s=170667a&w=0&h=q3NzDwLx1_phKGuwoky47RcELDt8PMr3zA8WdaauCRg=" />
+            <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
             <h1 className=  "mt-3 font-bold text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} />Mombasa</h1>
           </div>
         </div>

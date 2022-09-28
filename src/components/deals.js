@@ -124,6 +124,7 @@ export const Deals = () => {
                   </div>
                 </button>
               </div>
+              
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
               <img
