@@ -99,7 +99,7 @@ export const Deals = () => {
                 <div>
                   <h1
                     role="heading"
-                    className="text-2xl dark:text-black   tracking-tighter md:leading-snug f-f-l font-black"
+                    className="text-2xl dark:text-black mt-6   tracking-tighter md:leading-snug f-f-l font-black"
                   >
                     NEW HOUSE OFFERS
                   </h1>
