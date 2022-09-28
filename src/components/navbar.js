@@ -105,7 +105,7 @@ export const Nav = () => {
                           class="inline-flex items-center"
                         >
                           
-                          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800">
                             luxelivingairbnbs
                           </span>
                         </a>
@@ -145,7 +145,7 @@ export const Nav = () => {
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Blog
+                            Blogs
                           </a>
                         </li>
                         <li>
@@ -155,7 +155,7 @@ export const Nav = () => {
                             title="Product pricing"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Contact Us
+                            Contact
                           </a>
                         </li>
                         <li>
@@ -163,7 +163,7 @@ export const Nav = () => {
                             href="/"
                             aria-label="About us"
                             title="About us"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                            class="font-medium tracking-wide text-gray-700 uppercase transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             Join us
                           </a>
