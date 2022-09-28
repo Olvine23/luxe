@@ -4,6 +4,7 @@ import { faHouseSignal } from "@fortawesome/free-solid-svg-icons";
 import two from "../images/backdrop_2.jpg";
 // import three from '../images/backdrop_3.jpg'
 import four from "../images/poster_2.jpg";
+
 import Carousel from "./carousel";
 
 export const Feature = () => {
@@ -16,6 +17,7 @@ export const Feature = () => {
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           Weekly Deals
         </h2>
+        
         <p className="text-base text-gray-700 md:text-lg">
           Giving you the best deals in town
         </p>
@@ -26,7 +28,7 @@ export const Feature = () => {
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
            
             <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="max-w-lg mb-6   text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Let us handle
                 <br className="hidden md:block" />
                 your next{" "}
