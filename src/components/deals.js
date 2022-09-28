@@ -3,7 +3,7 @@ export const Deals = () => {
     <div className="md:mx-auto md:container px-4">
       <div className="pt-10 md:pt-20">
         <div className="container mx-auto">
-            <h1 className="text-center text-4xl mb-8">Weekly Deals</h1>
+          <h1 className="text-center text-4xl mb-8">Weekly Deals</h1>
           <div className="flex flex-wrap items-center  ">
             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
               <div className="py-2 pr-7 text-color">
@@ -17,10 +17,7 @@ export const Deals = () => {
                   role="contentinfo"
                   className="text-lg dark:text-black   lg:leading-7 md:leading-10 f-f-r py-4 md:py-4"
                 >
-                  Here at Globex we take special care of what your organization
-                  needs instead of selling you a mass market tool that takes a
-                  one size fits all approach. I personally review each and every
-                  client business and oversee the team that tailores a solution
+                  Grab yourself a midweek stay offer of up to 20% off!
                 </p>
                 <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
                   <span
@@ -108,10 +105,8 @@ export const Deals = () => {
                   role="contentinfo"
                   className="text-lg dark:text-black   leading-7   f-f-r py-4"
                 >
-                  Here at Globex we take special care of what your organization
-                  needs instead of selling you a mass market tool that takes a
-                  one size fits all approach. I personally review each and every
-                  client business and oversee the team that tailores a solution
+                  A fresh house is a fresh vibe! Plug yourself to a new house at
+                  a discounted price today!
                 </p>
                 <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
                   <span
@@ -185,7 +180,7 @@ export const Deals = () => {
       <div className=" pt-16">
         <div className="mx-auto">
           <div className="flex flex-wrap flex-row-reverse items-center">
-          <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
+            <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
               <img
                 className="absolute w-full h-full inset-0 object-cover object-center rounded-md"
                 src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg"
@@ -241,17 +236,17 @@ export const Deals = () => {
                     role="heading"
                     className="text-2xl dark:text-black   tracking-tighter md:leading-snug f-f-l font-black"
                   >
-                   SHEREHE DEALS
+                    SHEREHE DEALS
                   </h1>
                 </div>
                 <p
                   role="contentinfo"
                   className="text-lg dark:text-black   leading-7   f-f-r py-8"
                 >
-                  Here at Globex we take special care of what your organization
-                  needs instead of selling you a mass market tool that takes a
-                  one size fits all approach. I personally review each and every
-                  client business and oversee the team that tailores a solution
+                  Are you looking to throw a party, anniversary or celebration
+                  and do not want knocks on the door telling you to tone down
+                  the noise? Let us sort your headache with a conducive house,
+                  décor and catering services. Hit us up today!
                 </p>
                 <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
                   <span
@@ -270,7 +265,6 @@ export const Deals = () => {
                 </button>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
