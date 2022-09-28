@@ -3,6 +3,7 @@ export const Deals = () => {
     <div className="md:mx-auto md:container px-4">
       <div className="pt-10 md:pt-20">
         <div className="container mx-auto">
+            <h1 className="text-center text-4xl mb-8">Weekly Deals</h1>
           <div className="flex flex-wrap items-center  ">
             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
               <div className="py-2 pr-7 text-color">
@@ -10,7 +11,7 @@ export const Deals = () => {
                   role="heading"
                   className="text-2xl dark:text-black   md:leading-snug tracking-tighter f-f-l font-black"
                 >
-                  Boost adoption of product and services
+                  WEEKDAYS OFFER
                 </h1>
                 <p
                   role="contentinfo"
@@ -41,7 +42,7 @@ export const Deals = () => {
             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
               <img
                 className="absolute w-full h-full inset-0 object-cover object-center rounded-md"
-                src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png"
+                src="https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_960_720.jpg"
                 alt="A girl enjoying in sunlight"
                 role="img"
               />
@@ -100,7 +101,7 @@ export const Deals = () => {
                     role="heading"
                     className="text-2xl dark:text-black   tracking-tighter md:leading-snug f-f-l font-black"
                   >
-                    Easily manage sales through our invoicing system
+                    NEW HOUSE OFFERS
                   </h1>
                 </div>
                 <p
@@ -132,7 +133,7 @@ export const Deals = () => {
             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
               <img
                 className="absolute w-full h-full inset-0 object-cover object-center rounded-md"
-                src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png"
+                src="https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947__340.jpg"
                 alt="A group of three having a meeting"
                 role="img"
               />
@@ -187,7 +188,7 @@ export const Deals = () => {
           <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
               <img
                 className="absolute w-full h-full inset-0 object-cover object-center rounded-md"
-                src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png"
+                src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg"
                 alt="A group of three having a meeting"
                 role="img"
               />
@@ -240,7 +241,7 @@ export const Deals = () => {
                     role="heading"
                     className="text-2xl dark:text-black   tracking-tighter md:leading-snug f-f-l font-black"
                   >
-                    Easily manage sales through our invoicing system
+                   SHEREHE DEALS
                   </h1>
                 </div>
                 <p

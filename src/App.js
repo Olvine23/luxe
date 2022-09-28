@@ -19,11 +19,12 @@ function App() {
 
       {/* <Header /> */}
       <Hero />
-      <Deals />
+    
       
       <Card />
+      <Deals />
 
-      <Feature />
+       
      
       <Blog />
       <Footer />
