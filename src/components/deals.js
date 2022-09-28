@@ -15,7 +15,7 @@ export const Deals = () => {
                 </h1>
                 <p
                   role="contentinfo"
-                  className="text-lg dark:text-black   lg:leading-7 md:leading-10 f-f-r py-4 md:py-4"
+                  className="mdtext-lg dark:text-black   lg:leading-7 md:leading-10 f-f-r py-4 md:py-4"
                 >
                   Grab yourself a midweek stay offer of up to 20% off!
                 </p>
@@ -103,7 +103,7 @@ export const Deals = () => {
                 </div>
                 <p
                   role="contentinfo"
-                  className="text-lg dark:text-black   leading-7   f-f-r py-4"
+                  className="md:text-lg dark:text-black   leading-7   f-f-r py-4"
                 >
                   A fresh house is a fresh vibe! Plug yourself to a new house at
                   a discounted price today!
@@ -241,7 +241,7 @@ export const Deals = () => {
                 </div>
                 <p
                   role="contentinfo"
-                  className="text-lg dark:text-black   leading-7   f-f-r py-8"
+                  className="md:text-lg dark:text-black   leading-7   f-f-r py-8"
                 >
                   Are you looking to throw a party, anniversary or celebration
                   and do not want knocks on the door telling you to tone down
