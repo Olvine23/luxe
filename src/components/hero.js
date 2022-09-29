@@ -1,4 +1,5 @@
 import {Form} from './form'
+import Modal from './modal';
 export const Hero = () => {
   return (
    
@@ -18,11 +19,12 @@ export const Hero = () => {
                 and comfort of a home. <br /> Register today to enjoy our luxe
                 unlimited packages!
             </p>
-         
-            <div className="sm:border border-white flex-col sm:flex-row flex items-center lg:w-5/12 w-full mt-12 space-y-4 sm:space-y-0">
-                <input className="border border-white sm:border-transparent text-base w-full font-medium leading-none text-white p-4 focus:outline-none bg-transparent placeholder-white" placeholder="Email Address" />
-                <button className="focus:outline-none focus:ring-offset-2 focus:ring border border-white sm:border-transparent w-full sm:w-auto bg-white py-4 px-6 hover:bg-opacity-75">Subscribe</button>
+            <div className='md:mt-7 mt-3 flex'>
+            <Modal   />
+            <Modal   />
             </div>
+         
+           
         </div>
     </div>
 </div>
