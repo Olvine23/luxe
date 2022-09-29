@@ -20,8 +20,8 @@ export const Hero = () => {
                 unlimited packages!
             </p>
             <div className='md:mt-7 mt-3 flex'>
-            <Modal   />
-            <Modal   />
+            <Modal title="View Plans"   />
+            <Modal title="Request"   />
             </div>
          
            
