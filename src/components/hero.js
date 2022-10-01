@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
    
     <div className="2xl:mx-auto 2xl:container mx-4 py-6">
-    <div className="w-full relative flex items-center justify-center">
+    <div className="w-full h-full relative flex items-center justify-center">
         <img src="https://i.ibb.co/4sYZ8gC/img-2.png" alt="dining" className="w-full h-full absolute z-0 hidden xl:block" />
         <img src="https://i.ibb.co/bbS3J9C/pexels-max-vakhtbovych-6301182-1.png" alt="dining" className="w-full h-full absolute z-0 hidden sm:block xl:hidden" />
         <img src="https://i.ibb.co/JKkzGDs/pexels-max-vakhtbovych-6301182-1.png" alt="dining" className="w-full h-full absolute z-0 sm:hidden" />
@@ -13,11 +13,7 @@ export const Hero = () => {
             <p className="text-base leading-normal text-sm text-center text-white mt-6">
             Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "}
-                <br />
-                We offer exquisite Airbnb accommodation services across East
-                Africa in our various apartments and villas with the privacy
-                and comfort of a home. <br /> Register today to enjoy our luxe
-                unlimited packages!
+                
             </p>
             <div className='md:mt-7 mt-3 flex'>
             <Modal title="View Plans"   />
