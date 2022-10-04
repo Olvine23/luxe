@@ -1,6 +1,6 @@
 export const Blog = () => {
     return (
-      <div name="blogs" className="h-screen px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div name="blogs" className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <h1 className="text-center text-2xl font-bold mb-3">Blogs</h1>
           <p  className="text-center p-5">Here we share Airbnb investment hacks, tips as well as testimonials! You are welcome!</p>
         <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
