@@ -95,7 +95,7 @@ export const Nav = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute z-10 top-0 h-full left-0 w-full">
-                <div class="px-9 py-11 bg-white w-screen h-screen border rounded shadow-sm">
+                <div class="px-9 py-6 bg-white w-screen h-screen border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
                       <a
@@ -126,7 +126,7 @@ export const Nav = () => {
                     </div>
                   </div>
                   <nav>
-                    <ul class="items-center leading-6 space-y-4">
+                    <ul class="items-center   space-y-4">
                       <li>
                         <div className="bg-[#414141] p-3">
                           <a
