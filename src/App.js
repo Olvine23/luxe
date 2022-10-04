@@ -1,6 +1,6 @@
  
 import "./App.css";
-import { Nav } from "./components/navbar";
+import  {Nav}  from "./components/nav_two";
 import { Headers } from "./components/hero_two";
 import { Deals } from "./components/deals";
 import Hero from "./components/hero/Hero";
@@ -13,9 +13,9 @@ import { Swipe } from "./components/swiper";
 function App() {
   return (
     <>
-      <Nav />
+      
       {/* <Hero /> */}
-
+    <Nav />
 
       {/* <Header /> */}
       <Hero />

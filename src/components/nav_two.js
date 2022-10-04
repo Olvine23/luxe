@@ -1,5 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/png/logo-no-background.png"
+ 
+import { Link } from "react-scroll";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,12 +16,14 @@ export const Nav = () => {
             class="inline-flex items-center"
           >
             <span class="ml-2 text-xl font-bold tracking-wide">
+              <Link smooth={true} duration={500} to="home">
               luxelivingairbnbs
+              </Link>
             </span>
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              
+              <Link smooth={true} duration={500} to ="deals">
               <a
                 href="/"
                 aria-label="Our product"
@@ -28,9 +32,11 @@ export const Nav = () => {
               >
                 Deals
               </a>
+              </Link>
             </li>
             <li>
-              <a
+            <Link smooth={true} duration={500} to="destinations">
+            <a
                 href="/"
                 aria-label="Our product"
                 title="Our product"
@@ -38,16 +44,22 @@ export const Nav = () => {
               >
                 Destinations
               </a>
+               
+            </Link>
             </li>
             <li>
+              <Link smooth={true} duration={500}  to="blogs">
+              
               <a
                 href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                aria-label="Our product"
+                title="Our product"
+                class="font-medium tracking-wide   transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Blogs
+               Blogs
               </a>
+               
+              </Link>
             </li>
             <li>
               <a
@@ -130,6 +142,7 @@ export const Nav = () => {
                     <ul class="items-center   space-y-4">
                       <li>
                         <div className="bg-[#414141] p-3">
+                        <Link smooth={true} duration={500} to="home">
                           <a
                             href="/"
                             aria-label="Our product"
@@ -138,6 +151,7 @@ export const Nav = () => {
                           >
                             Home
                           </a>
+                          </Link>
                         </div>
                       </li>
                       <hr />
@@ -199,7 +213,13 @@ export const Nav = () => {
             )}
           </div>
         </div>
+
+       
+
+ 
       </div>
+
+      
     </div>
   );
 };

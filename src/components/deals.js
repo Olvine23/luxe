@@ -1,6 +1,7 @@
+import { HiOutlinePhoneOutgoing } from "react-icons/hi";
 export const Deals = () => {
   return (
-    <div className="md:mx-auto md:container px-4">
+    <div name="deals" className="md:mx-auto md:container px-4">
       <div className="pt-10 md:pt-20">
         <div className="container mx-auto">
           <h1 className="text-center text-4xl mb-8">Weekly Deals</h1>
@@ -47,17 +48,18 @@ export const Deals = () => {
                 <div className="flex items-center justify-between w-full sm:w-full mb-8">
                   <div className="flex items-center">
                     <div className="p-4 bg-yellow-200 rounded-md">
-                      <img
+                    <HiOutlinePhoneOutgoing size={30} />
+                      {/* <img
                         src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg2.svg"
                         alt="icon"
-                      />
+                      /> */}
                     </div>
                     <div className="ml-6">
                       <p className="mb-1 leading-5 text-brown-800 font-bold text-2xl">
-                        2,330
+                       Call Us
                       </p>
                       <p className="text-gray-600 dark:text-brown-900 text-sm tracking-normal font-normal leading-5">
-                        Avg Sales
+                      +254 723 896 162
                       </p>
                     </div>
                   </div>
@@ -68,11 +70,11 @@ export const Deals = () => {
                         alt="arrow"
                       />
                       <p className="text-green-700 text-xs tracking-wide font-bold leading-normal pl-1">
-                        7.2%
+                        20%
                       </p>
                     </div>
                     <p className="font-normal text-xs text-right leading-4 text-green-700 tracking-normal">
-                      Increase
+                     Discount
                     </p>
                   </div>
                 </div>
@@ -81,7 +83,7 @@ export const Deals = () => {
                   <hr className="absolute top-0 h-1 w-7/12 rounded-sm bg-indigo-700" />
                 </div>
                 <h2 className="text-base text-gray-600 dark:text-black font-normal tracking-normal leading-5">
-                  Yearly Goal
+                  Discounted Prices
                 </h2>
               </div>
             </div>

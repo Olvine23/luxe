@@ -8,7 +8,7 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div className='hero'>
-            <div className='content'>
+            <div name="home" className='content'>
                 <h1>Welcome To luxelivingairbnbs</h1>
                 <p className='search-text'> Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "} </p>

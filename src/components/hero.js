@@ -3,7 +3,7 @@ import Modal from './modal';
 export const Hero = () => {
   return (
    
-    <div className="2xl:mx-auto 2xl:container mx-4 py-6">
+    <div name="home" className="2xl:mx-auto 2xl:container mx-4 py-6 ">
     <div className="w-full h-full relative flex items-center justify-center">
         <img src="https://i.ibb.co/4sYZ8gC/img-2.png" alt="dining" className="w-full h-full absolute z-0 hidden xl:block" />
         <img src="https://i.ibb.co/bbS3J9C/pexels-max-vakhtbovych-6301182-1.png" alt="dining" className="w-full h-full absolute z-0 hidden sm:block xl:hidden" />
