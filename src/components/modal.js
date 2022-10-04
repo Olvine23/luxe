@@ -5,8 +5,8 @@ const Modal = ({title}) => {
   return (
     <>
       <button
-        className="bg-blue-200 text-black active:bg-blue-500 
-      font-bold md:px-6 px-3 py-1 md:py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+        className="bg-blue-200 mr-6 text-black active:bg-blue-500 
+      font-bold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
         type="button"
         onClick={() => setShowModal(true)}
       >

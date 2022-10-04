@@ -13,7 +13,7 @@ const Hero = () => {
                 <p className='search-text'> Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "} </p>
          <div className='md:mt-7 '>
-            <Modal title="View Plans"   />
+            <Modal title="Make Request"   />
              <MyDropdown />
             {/* <Modal title="Request"   /> */}
             </div>
