@@ -94,8 +94,8 @@ export const Nav = () => {
                 </svg>
               </button>
               {isMenuOpen && (
-                <div class="absolute z-10 top-0 left-0 w-full">
-                  <div class="p-5 bg-white border rounded shadow-sm">
+                <div class="absolute z-10 top-0 h-full left-0 w-full">
+                  <div class="p-5 bg-white w-screen h-screen border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>
                         <a
