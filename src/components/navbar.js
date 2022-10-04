@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/png/logo-no-background.png"
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -104,7 +105,7 @@ export const Nav = () => {
                         class="inline-flex items-center"
                       >
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800">
-                          luxelivingairbnbs
+                          <img src={logo} alt="logo" />
                         </span>
                       </a>
                     </div>
