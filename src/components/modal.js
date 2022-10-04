@@ -33,11 +33,11 @@ const Modal = ({title}) => {
                     <label className="block text-black text-sm font-bold mb-1">
                       Full Names
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input placeholder="Enter Full Names" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
                     <label className="block text-black text-sm font-bold mb-1">
                       Email Address
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input placeholder="Enter your email address" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
                     <label className="block text-black text-sm font-bold mb-1">
                      Preffered Membership Package
                     </label>
@@ -45,11 +45,8 @@ const Modal = ({title}) => {
                     <label className="block text-black text-sm font-bold mb-1">
                       Week
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
-                     Query
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input placeholder="input date" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    
                   </form>
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
