@@ -139,6 +139,7 @@ export const Nav = () => {
                           </a>
                         </div>
                       </li>
+                      <hr />
                       <li>
                         <div className="  p-3">
                         <a
@@ -151,6 +152,7 @@ export const Nav = () => {
                         </a>
                         </div>
                       </li>
+                      <hr />
                       <li>
                         <div className="  p-3">
                         <a
@@ -163,6 +165,7 @@ export const Nav = () => {
                         </a>
                         </div>
                       </li>
+                      <hr />
                       <li>
                         <div className="  p-3">
                         <a
@@ -175,6 +178,7 @@ export const Nav = () => {
                         </a>
                         </div>
                       </li>
+                      <hr />
                       <li>
                         <div className="  p-3">
                         <a
