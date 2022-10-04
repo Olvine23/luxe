@@ -105,7 +105,7 @@ export const Nav = () => {
                         class="inline-flex items-center"
                       >
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800">
-                          <img src={logo} alt="logo" />
+                          <img className="h-20 w-20 text-center" src={logo} alt="logo" />
                         </span>
                       </a>
                     </div>
