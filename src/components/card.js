@@ -91,28 +91,21 @@ export const Card = () => {
                     <img
                       className="object-cover w-full h-64"
                       alt="t"
-                      src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
+                      src="https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_960_720.jpg"
                     />
 
                     <img
                       className="object-cover w-full h-64"
                       alt="t"
-                      src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
+                      src="https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265__340.jpg"
                     />
                   </div>
                   <img
                     className="object-cover w-full h-64"
                     alt="t"
-                    src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
+                    src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg"
                   />
-                  <p>
-                    This membership package provides studio apartments and
-                    one-bedroom apartments; ideal for occupancy by a maximum of
-                    three individuals for 7-days a year. The package includes
-                    transport services to and from the airport. The homes are
-                    strategically located in safe, quiet areas and with easy
-                    access to shopping and social amenities.
-                  </p>
+                  
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
