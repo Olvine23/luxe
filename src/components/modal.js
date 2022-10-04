@@ -41,7 +41,7 @@ const Modal = ({title}) => {
                     <label className="block text-black text-sm font-bold mb-1">
                      Preffered Membership Package
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input placeholder="Enter Selected Membership Package" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
                     <label className="block text-black text-sm font-bold mb-1">
                       Week
                     </label>

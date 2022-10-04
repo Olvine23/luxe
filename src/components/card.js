@@ -47,7 +47,7 @@ export const Card = () => {
               onClick={() => setShowModal(true)}
               className="object-cover w-full h-64"
               alt="t"
-              src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
+              src="https://cdn.pixabay.com/photo/2016/11/30/08/46/living-room-1872192__340.jpg"
             />
             <h1 className="mt-3 text-center font-bold text-[#414141]">
               {" "}
@@ -60,7 +60,7 @@ export const Card = () => {
               onClick={() => setShowModal(true)}
               className="object-cover w-full h-64"
               alt="t"
-              src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
+              src="https://cdn.pixabay.com/photo/2013/09/24/12/06/apartment-185778__340.jpg"
             />
             <h1 className="mt-3 font-bold text-center text-[#414141]">
               <FontAwesomeIcon className="mr-4" icon={faLocationDot} />
