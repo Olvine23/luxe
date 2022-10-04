@@ -21,15 +21,21 @@ export const Card = () => {
             
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
-            <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_960_720.jpg" />
+            <img
+            onClick={() => setShowModal(true)}
+            className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_960_720.jpg" />
             <h1 className=  "mt-3 text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} /> Kisumu</h1>
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
-            <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
+            <img 
+            onClick={() => setShowModal(true)}
+            className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
             <h1 className=  "mt-3 text-center font-bold text-[#414141]"> <FontAwesomeIcon className="mr-4" icon={faLocationDot} />Malindi</h1>
           </div>
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
-            <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
+            <img 
+            onClick={() => setShowModal(true)}
+            className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
             <h1 className=  "mt-3 font-bold text-center text-[#414141]"><FontAwesomeIcon className="mr-4" icon={faLocationDot} />Mombasa</h1>
           </div>
         </div>
@@ -52,28 +58,11 @@ export const Card = () => {
                   </button>
                 </div>
                 <div className="relative p-6 flex-auto">
-                  <form className="bg-gray-200 shadow-md rounded px-8 md:pt-6 pt-3 pb-8 w-full">
-                    <label className="block text-black text-sm font-bold mb-1">
-                      Full Names
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
-                      Email Address
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
-                     Preffered Membership Package
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
-                      Week
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
-                     Query
-                    </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                  </form>
+                <img className="object-cover w-full h-64" alt="t" src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg" />
+                <p>This membership package provides studio apartments and one-bedroom apartments; ideal for
+occupancy by a maximum of three individuals for 7-days a year. The package includes transport
+services to and from the airport. The homes are strategically located in safe, quiet areas and with easy
+access to shopping and social amenities.</p> 
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
