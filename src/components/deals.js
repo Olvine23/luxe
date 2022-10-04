@@ -59,7 +59,7 @@ export const Deals = () => {
                        Call Us
                       </p>
                       <p className="text-gray-600 dark:text-brown-900 text-sm tracking-normal font-normal leading-5">
-                      +254 723 896 162
+                      +254723896162
                       </p>
                     </div>
                   </div>
@@ -137,38 +137,30 @@ export const Deals = () => {
               />
               <div className="relative z-10 p-4 bg-white shadow rounded mx-auto w-9/12 -mb-20">
                 <p className="text-gray-800 font-normal text-md leading-4 tracking-normal mb-2">
-                  Invoice # 35RD87
-                </p>
-                <p className="text-gray-600 dark:text-gray-200 text-xs leading-3 font-normal">
-                  Assigned to: Josh Rollins
+                  CALL NOW FOR A DISCOUNT
                 </p>
                 <div className="mt-4 flex items-center">
                   <span className="text-gray-600 dark:text-gray-200">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg4.svg"
-                      alt="account"
-                    />
+                  <HiOutlinePhoneOutgoing size={30} /> 
                   </span>
                   <p className="ml-1 text-sm text-gray-800 leading-3 tracking-normal font-normal">
-                    Specter Consultancy
+                  +254 708149 923
                   </p>
                 </div>
-                <div className="mt-3 flex items-center">
+                <div className="mt-4 flex items-center">
                   <span className="text-gray-600 dark:text-gray-200">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg5.svg"
-                      alt="dollar"
-                    />
+                  <HiOutlinePhoneOutgoing size={30} /> 
                   </span>
                   <p className="ml-1 text-sm text-gray-800 leading-3 tracking-normal font-normal">
-                    2,354 USD
+                  +254 723 896 162
                   </p>
                 </div>
+               
                 <button
                   className="relative focus:outline-none mt-4 py-2 pr-10 bg-indigo-700 text-white tracking-normal text-xs pl-3 cursor-pointer hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
                   role="button"
                 >
-                  View Invoice
+                  Checkout
                   <img
                     className="absolute inset-0 m-auto mr-3 icon icon-tabler icon-tabler-arrow-right"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg6.svg"
@@ -192,38 +184,30 @@ export const Deals = () => {
               />
               <div className="relative z-10 p-4 bg-white shadow rounded mx-auto w-9/12 -mb-20">
                 <p className="text-gray-800 font-normal text-md leading-4 tracking-normal mb-2">
-                  Invoice # 35RD87
-                </p>
-                <p className="text-gray-600 dark:text-gray-200 text-xs leading-3 font-normal">
-                  Assigned to: Josh Rollins
+                CALL NOW FOR A DISCOUNT
                 </p>
                 <div className="mt-4 flex items-center">
                   <span className="text-gray-600 dark:text-gray-200">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg4.svg"
-                      alt="account"
-                    />
+                  <HiOutlinePhoneOutgoing size={30} /> 
                   </span>
                   <p className="ml-1 text-sm text-gray-800 leading-3 tracking-normal font-normal">
-                    Specter Consultancy
+                  +254 708149 923
                   </p>
                 </div>
                 <div className="mt-3 flex items-center">
-                  <span className="text-gray-600 dark:text-gray-200">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg5.svg"
-                      alt="dollar"
-                    />
+                <span className="text-gray-600 dark:text-gray-200">
+                  <HiOutlinePhoneOutgoing size={30} /> 
                   </span>
                   <p className="ml-1 text-sm text-gray-800 leading-3 tracking-normal font-normal">
-                    2,354 USD
+                  +254 708149 923
                   </p>
+                  
                 </div>
                 <button
                   className="relative focus:outline-none mt-4 py-2 pr-10 bg-indigo-700 text-white tracking-normal text-xs pl-3 cursor-pointer hover:opacity-90 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
                   role="button"
                 >
-                  View Invoice
+                 Checkout
                   <img
                     className="absolute inset-0 m-auto mr-3 icon icon-tabler icon-tabler-arrow-right"
                     src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg6.svg"
