@@ -182,11 +182,11 @@ export const Card = () => {
                     </span>
                   </button>
                 </div>
-                <div className=" p-6  flex-auto">
-                <div className="grid grid-cols-3 gap-2">
+                <div className=" md:p-6  flex-auto">
+                <div className="grid grid-cols-3 gap-1 md:gap-2">
                   <div>
                   <img
-                    className="object-cover w-64 h-64"
+                    className="object-cover h-32 md:w-64 md:h-64"
                     alt="t"
                     src="https://cdn.pixabay.com/photo/2018/01/26/08/15/dining-room-3108037__340.jpg"
                   />
@@ -194,7 +194,7 @@ export const Card = () => {
                   </div>
                   <div>
                   <img
-                    className="object-cover w-64 h-64"
+                    className="object-cover h-32 md:w-64 md:h-64"
                     alt="t"
                     src="https://www.baufritz.com/images/teaser/crossland_760x700.jpg?t=1615210589"
                   />
@@ -202,7 +202,7 @@ export const Card = () => {
                   </div>
                   <div>
                   <img
-                    className="object-cover w-64 h-64"
+                    className="object-cover h-32 md:w-64 md:h-64"
                     alt="t"
                     src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/brewster-mcleod-architects-1486154143.jpg"
                   />
