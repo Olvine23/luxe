@@ -58,9 +58,9 @@ const Modal = ({ title }) => {
                     <label className="block mt-5 text-black text-sm font-bold mb-1" for="package"> Preffered Membership Package:</label>
 
                     <select className="shadow appearance-none border rounded w-full py-2 px-1 text-black" name="package" id="package">
-                      <option value="volvo">FAMILY MEMBERSHIP</option>
-                      <option value="saab">TRINITY MEMBERSHIP</option>
-                      <option value="mercedes">CORPORATE MEMBERSHIP</option>
+                      <option name="package" value="FAMILY">FAMILY MEMBERSHIP</option>
+                      <option name="package" value="TRINITY">TRINITY MEMBERSHIP</option>
+                      <option name="package" value="CORPORATE">CORPORATE MEMBERSHIP</option>
                        
                     </select>
                     <label className="block mt-5 text-black text-sm font-bold mb-1">
@@ -68,6 +68,7 @@ const Modal = ({ title }) => {
                     </label>
                     <input
                       required
+                      name="date"
                       type="date"
                       placeholder="input date"
                       className="shadow appearance-none border rounded w-full py-2 px-1 text-black"
