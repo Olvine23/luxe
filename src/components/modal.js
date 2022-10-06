@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-
-const Modal = ({title}) => {
+import MyDropDown from "../components/menu";
+const Modal = ({ title }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
@@ -29,49 +29,67 @@ const Modal = ({title}) => {
                   </button>
                 </div>
                 <div className="relative p-6 flex-auto">
-                  <form action="https://getform.io/f/0ecde479-251c-4634-9d7e-91546e8c6840" method="POST" className="bg-gray-200 shadow-md rounded px-8 md:pt-6 pt-6 pb-8 w-full">
-                    <label className="block text-black text-sm font-bold mb-1">
+                <p className="text-black text-lg">Please Fill out all Fields   </p>
+                  <form
+                    action="https://getform.io/f/0ecde479-251c-4634-9d7e-91546e8c6840"
+                    method="POST"
+                    className="bg-gray-200 shadow-md rounded px-8 md:pt-6 pt-6 pb-8 w-full"
+                  >
+                    
+                    <label className="  text-black text-sm font-bold mb-1">
                       Full Names
                     </label>
-                    <input name="name" placeholder="Enter Full Names" className="shadow appearance-none border rounded w-full py-2  px-1 text-black" />
+                    <input
+                      required
+                      name="name"
+                      placeholder="Enter Full Names"
+                      className="shadow appearance-none border rounded w-full py-2  px-1 text-black"
+                    />
                     <label className="block mt-5 text-black text-sm font-bold mb-1">
                       Email Address
                     </label>
-                    <input name="email" placeholder="Enter your email address" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block mt-5 text-black text-sm font-bold mb-1">
-                     Preffered Membership Package
-                    </label>
-                    <input name="package" placeholder="Enter Membership Package" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input
+                      required
+                      name="email"
+                      placeholder="Enter your email address"
+                      className="shadow appearance-none border rounded w-full py-2 px-1 text-black"
+                    />
+   
+                    <label className="block mt-5 text-black text-sm font-bold mb-1" for="package"> Preffered Membership Package:</label>
+
+                    <select className="shadow appearance-none border rounded w-full py-2 px-1 text-black" name="package" id="package">
+                      <option value="volvo">FAMILY MEMBERSHIP</option>
+                      <option value="saab">TRINITY MEMBERSHIP</option>
+                      <option value="mercedes">CORPORATE MEMBERSHIP</option>
+                       
+                    </select>
                     <label className="block mt-5 text-black text-sm font-bold mb-1">
                       Week
                     </label>
-                    <input placeholder="input date" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <input
+                      required
+                      type="date"
+                      placeholder="input date"
+                      className="shadow appearance-none border rounded w-full py-2 px-1 text-black"
+                    />
                     <button
-                    className=" "
-                    type="submit"
-                    
-                  >
-                    Submit
-                  </button>
-                    
-                    
+                      
+                      className="mt-9 text-white bg-[#414141] active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
                   </form>
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
+                    className=" text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
                     type="submit"
                     onClick={() => setShowModal(false)}
                   >
                     Close
                   </button>
-                  <button
-                    className="text-white bg-yellow-500 active:bg-yellow-700 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Submit
-                  </button>
+                  
                 </div>
               </div>
             </div>

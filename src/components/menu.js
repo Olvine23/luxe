@@ -34,7 +34,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                href="https://www.pixabay.com"
+                href="#"
                   
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
@@ -47,7 +47,7 @@ export default function Example() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link to ="destination">
+                 
                 <a
                   href="#"
                   
@@ -58,7 +58,7 @@ export default function Example() {
                 >
                  TRINITY MEMBERSHIP
                 </a>
-               </Link>
+             
               )}
             </Menu.Item>
             <Menu.Item>
