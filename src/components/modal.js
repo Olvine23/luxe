@@ -29,20 +29,20 @@ const Modal = ({title}) => {
                   </button>
                 </div>
                 <div className="relative p-6 flex-auto">
-                  <form className="bg-gray-200 shadow-md rounded px-8 md:pt-6 pt-3 pb-8 w-full">
+                  <form action="https://getform.io/f/0ecde479-251c-4634-9d7e-91546e8c6840" method="POST" className="bg-gray-200 shadow-md rounded px-8 md:pt-6 pt-6 pb-8 w-full">
                     <label className="block text-black text-sm font-bold mb-1">
                       Full Names
                     </label>
-                    <input placeholder="Enter Full Names" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
+                    <input name="name" placeholder="Enter Full Names" className="shadow appearance-none border rounded w-full py-2  px-1 text-black" />
+                    <label className="block mt-5 text-black text-sm font-bold mb-1">
                       Email Address
                     </label>
-                    <input placeholder="Enter your email address" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
+                    <input name="email" placeholder="Enter your email address" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <label className="block mt-5 text-black text-sm font-bold mb-1">
                      Preffered Membership Package
                     </label>
-                    <input placeholder="Enter Selected Membership Package" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
-                    <label className="block text-black text-sm font-bold mb-1">
+                    <input name="package" placeholder="Enter Membership Package" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
+                    <label className="block mt-5 text-black text-sm font-bold mb-1">
                       Week
                     </label>
                     <input placeholder="input date" className="shadow appearance-none border rounded w-full py-2 px-1 text-black" />
@@ -52,7 +52,7 @@ const Modal = ({title}) => {
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
                     className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
+                    type="submit"
                     onClick={() => setShowModal(false)}
                   >
                     Close
