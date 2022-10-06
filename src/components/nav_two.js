@@ -4,6 +4,8 @@ import logo from "../assets/png/logo-no-background.png"
 import { Link } from "react-scroll";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
 
   return (
     <div class="">
@@ -47,6 +49,7 @@ export const Nav = () => {
                
             </Link>
             </li>
+            
             <li>
               <Link smooth={true} duration={500}  to="blogs">
               
@@ -144,6 +147,7 @@ export const Nav = () => {
                         <div className="bg-[#414141] p-3">
                         <Link smooth={true} duration={500} to="home">
                           <a
+                           onClick={() => setIsMenuOpen(false)}
                             href="/"
                             aria-label="Our product"
                             title="Our product"
@@ -156,20 +160,38 @@ export const Nav = () => {
                       </li>
                       <hr />
                       <li>
-                        <div className="  p-3">
+                      <div className="  p-3">
+                          <Link to="deals" >
                         <a
                           href="/"
+                          onClick={() => setIsMenuOpen(false)}
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Deals
+                        </a>
+                        </Link>
+                        </div>
+                        <hr />
+                        <div className="  p-3">
+                          <Link to="destinations" >
+                        <a
+                          href="/"
+                          onClick={() => setIsMenuOpen(false)}
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Destinations
                         </a>
+                        </Link>
                         </div>
                       </li>
                       <hr />
                       <li>
                         <div className="  p-3">
+                          <Link to="blogs">
                         <a
                           href="/"
                           aria-label="Our product"
@@ -178,6 +200,7 @@ export const Nav = () => {
                         >
                           Blogs
                         </a>
+                        </Link>
                         </div>
                       </li>
                       <hr />
