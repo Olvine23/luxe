@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 export const Card = () => {
   const [showModal, setShowModal] = useState(false);
@@ -23,6 +24,7 @@ export const Card = () => {
         <h2 className="text-right mr-6">
           See All <FontAwesomeIcon icon={faArrowRight} />{" "}
         </h2>
+        
         <div className="grid gap-11   lg:grid-cols-4  sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="rounded-2xl shadow-2xl bg-white overflow-hidden">
             <img

@@ -9,11 +9,17 @@ import { Footer } from "./components/footer";
 import { Blog }from "./components/blog";
 import { Card } from "./components/card";
 import { Swipe } from "./components/swiper";
-
+import  {Register } from "./components/register";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      
+      <Router>
+        <Routes>
+          <Route exact path = "/register" element={<Register/>}/>
+           
+        </Routes>
+      </Router>
       {/* <Hero /> */}
     <Nav />
 

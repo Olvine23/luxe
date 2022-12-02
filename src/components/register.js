@@ -1,6 +1,5 @@
 import { HiOutlinePhoneOutgoing } from "react-icons/hi";
-import Modal from "./modal";
-export const Deals = () => {
+export const Register = () => {
   return (
     <div name="deals" className="md:mx-auto md:container px-4">
       <div className="pt-10 md:pt-20">
@@ -27,7 +26,7 @@ export const Deals = () => {
                     role="button"
                     className="focus outline-none f-f-r text-lg lg:text-lg font-semibold underline text-indigo-700 dark:text-indigo-400"
                   >
-                  <Modal  title="Lets Get Started " /> 
+                    Lets Get Started
                   </span>
                   <div className="pl-2">
                     <img

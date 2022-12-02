@@ -20,7 +20,7 @@ export const Header = () => {
             <div className="max-w-xl mb-6">
                
               <h2 className="max-w-lg mb-4 font-sans  p-3 font-bold uppercase tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                <span className=" text-lg md:text-2xl text-blue-400">Welcome To</span> <br /> <span className="text-2xl md:text-5xl">Luxelivingairbnb</span>
+                <span className=" text-lg md:text-2xl text-blue-400">Welcome To</span> <br /> <span className="text-2xl md:text-5xl">Ollylifeairbnb</span>
               </h2>
               <p className="text-base text-lg tracking-wide text-gray-700 md:text-lg">
                 Freedom to move anywhere ,anytime with no leases, landlords or commitments

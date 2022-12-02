@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className='hero'>
             <div name="home" className='content'>
-                <h1>Welcome To luxelivingairbnbs</h1>
+                <h1>Welcome To lollyairbnb</h1>
                 <p className='search-text'> Our Luxe club connects you to memorable experiences, specially
                 curated to attend to your personal, family or corporate needs.{" "} </p>
          <div className='md:mt-7 '>

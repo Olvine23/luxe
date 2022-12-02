@@ -19,7 +19,7 @@ export const Nav = () => {
           >
             <span class="ml-2 text-xl font-bold tracking-wide">
               <Link smooth={true} duration={500} to="home">
-              luxelivingairbnbs
+              lollyairbnb
               </Link>
             </span>
           </a>
